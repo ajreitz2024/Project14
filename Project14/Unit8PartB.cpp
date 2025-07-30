@@ -21,8 +21,10 @@ int half(int num) { // if the data type is int, use this version of the function
 
 int main() {
 	double a = 7.0;
+	float b = 5.0f;
 	int c = 3;
 	cout << half(a) << endl;
+	cout << half(b) << endl;
 	cout << half(c) << endl;
 	return 0;
 }
